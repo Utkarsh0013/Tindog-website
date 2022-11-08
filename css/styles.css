@@ -1,0 +1,137 @@
+/*titile section*/
+body{
+text-align: center;
+}
+#title
+{
+    background-color: #ff4c68;
+    font-family: 'Montserrat-Black', sans-serif; 
+}
+.title-heading{
+    font-family: 'Montserrat', cursive;
+    font-size: 3.8rem;
+    line-height: 1.5;  
+    color:white; 
+    text-align: left;
+}
+.container-fluid{
+    padding:6% 15%;
+    padding:0 auto 4.5rem;
+}
+.mobile{
+    transform: rotate(30deg);
+    width: 60%;
+    position:absolute;
+    right:30%; 
+}
+.navbar{
+    padding:0% 0% 4.5% 0%;
+}
+.navbar-brand{
+    font-family: 'ubuntu';
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.nav-item{
+    padding:0 18px;
+    font-size:1.5rem;
+}
+.btn{
+    margin:5% 3% 5% 0;
+}
+
+h2,h3{
+    font-family:'Montserrat-bold';
+}
+
+
+/*second section features*/
+h3{
+    font-size:1.5rem;
+    font-weight:800;
+}
+#features{
+    background-color: white;
+    padding:100px 100px;
+    position:relative;
+    z-index:1;
+
+}
+.fa-solid{
+    color: #ef8172;
+    font-size:60px;
+    margin-bottom: 15px;
+}
+.fa-solid:hover{
+    color: #ff4c68;
+}
+p{
+    color:#8f8f8f;
+    font-size:25px;    /*or you can add fa-4x there in the html itself-->*/        
+}
+
+/*testimonial section*/
+
+#testimonials{
+    background-color: #ff4c68;
+    padding:50px 100px;
+    color:#fff;
+}
+.dog{
+    border-radius:100%;
+    width:20%;
+    margin:20px auto;
+}
+
+/*press section*/
+#press{
+    background-color: #ff4c68;
+}
+h2{
+    font-size: 3rem;
+}
+.image{
+    margin-bottom: 40px;
+    width:15%;
+}
+
+
+/*pricing section*/
+
+#pricing{
+    font-size:2rem;
+    padding:50px;
+}
+.price-card{
+    padding:3% 2%;
+}
+
+/*for responsive site*/
+@media (max-width:900px)
+{
+    .mobile{
+        position:static;
+        transform: rotate(0deg);
+    }
+   #title{ text-align:center;}
+}
+
+/*call to action section*/
+#cta{
+    background-color: #ff4c68;
+    padding:30px;
+}
+.bottom-container{
+    color: #fff;
+    font-family: "Montserrat Black";
+}
+
+/*footer section*/
+
+#footer{
+    background-color: #fff;
+    margin:40px;
+}
+.botn{
+    padding:2px;
+}
