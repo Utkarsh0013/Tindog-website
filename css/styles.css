@@ -107,7 +107,7 @@ h2{
 }
 
 /*for responsive site*/
-@media (max-width:900px)
+@media (max-width:1028px)
 {
     .mobile{
         position:static;
